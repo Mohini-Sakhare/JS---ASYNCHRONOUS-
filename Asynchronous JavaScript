@@ -15,3 +15,7 @@ function sayBye() {
 }
 
 greet("Mohini", sayBye);
+
+output:-
+Hello, Mohini 
+Goodbye!
