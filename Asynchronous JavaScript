@@ -63,3 +63,11 @@ async function functionName() {
     console.error("Error:", error.message);
   }
 }
+
+* Async Function :-
+The async function allows us to write promise-based code as if it were synchronous. This ensures that the execution thread is not blocked. Async functions always return a promise. If a value is returned that is not a promise, JavaScript automatically wraps it in a resolved promise.
+Syntax:
+
+async function myFunction() {
+  return "Hello";
+}
